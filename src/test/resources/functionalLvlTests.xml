@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="functional level speller's tests">
+
+    <test name="yandex speller functional lvl testing">
+        <classes>
+            <class name="speller.functional_level.SpellerTests"/>
+        </classes>
+    </test>
+
+</suite>
