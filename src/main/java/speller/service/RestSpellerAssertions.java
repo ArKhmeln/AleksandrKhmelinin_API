@@ -39,7 +39,7 @@ public class RestSpellerAssertions {
         assertEquals(textAnswer[0].getCode(), errorCode, "Wrong error code");
     }
 
-    public void assertTextsCorrectionRequest(String text) {
-        assertTrue(textsAnswer[0][0].getS().contains(text), "No suggestions");
+    public void assertTextsCorrectionRequest(String text, int index) {
+        assertTrue(textsAnswer[0][index].getS().contains(text), "No suggestions");
     }
 }
